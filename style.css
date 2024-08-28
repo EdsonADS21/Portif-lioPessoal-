@@ -1,0 +1,99 @@
+
+body {
+    /*geral do site*/
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    /*Cabeçalho*/
+    background-color: #e70800;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    /*Menu de navegação*/
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    /*Seção principal*/
+    padding: 20px;
+}
+
+footer {
+    /*rodape do site*/
+    background-color: #f50000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form input, form textarea {
+    /*campos de entrada do formulario*/
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    /*botao de envio*/
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    /*botao de envio quando o cursor esta sobre ele*/
+    background-color: #f7e600;
+}
+.hobbies {
+    /*Seçao hobies*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.hobby {
+    /*Cada item da seçao*/
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hobby img {
+    /*imagens*/
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hobby h4 {
+    /*Titulos dos hobies*/
+    margin-top: 10px;
+    font-size: 1.2em;
+}
